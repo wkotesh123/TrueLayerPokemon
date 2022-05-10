@@ -6,11 +6,11 @@ The project is built on top of .Net Core framework and Nunit Framework.
 Swagger has been implementented for quick access and testing purposes.
 
 After running this project you can access this URL for swagger
-https://localhost:44373/swagger/index.html
+https://localhost:5000/swagger/index.html
 
 ## Running the application
 In order to run the project the following dependencies are required:
-- Visual Studio 2019 IDE on Windows
+- Visual Studio 2022 IDE on Windows
 
 Just open the solution file and run this application in visual studio. it will open the url in the browser with swagger.
 
@@ -26,7 +26,7 @@ I have created 3 part of test
 
 ## Suggestion for production API
 
-It is worth implementing Retry pattern(Polly) and Circuit breaker for external web api calls by assuming this
+It is worth implementing Retry pattern(Poly) and Circuit breaker for external web api calls by assuming this
 request is critical for business in terms of successful transactions and avoiding DDoS.
 
 Health check components can be implemented for better monitoring and alerting.
