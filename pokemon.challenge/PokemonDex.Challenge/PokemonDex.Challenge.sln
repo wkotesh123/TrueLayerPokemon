@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonDex.Challenge", "PokemonDex.Challenge.csproj", "{EC4CF273-F7DE-4B34-87DE-C4E7D30C6C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonDex.Challenge.Test", "..\PokemonDex.Challenge.Test\PokemonDex.Challenge.Test.csproj", "{CEBB5ACD-84FD-4517-BD9A-21AA14FAB61B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC4CF273-F7DE-4B34-87DE-C4E7D30C6C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4CF273-F7DE-4B34-87DE-C4E7D30C6C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4CF273-F7DE-4B34-87DE-C4E7D30C6C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4CF273-F7DE-4B34-87DE-C4E7D30C6C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBB5ACD-84FD-4517-BD9A-21AA14FAB61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBB5ACD-84FD-4517-BD9A-21AA14FAB61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBB5ACD-84FD-4517-BD9A-21AA14FAB61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBB5ACD-84FD-4517-BD9A-21AA14FAB61B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F2F1332-6052-4559-AE23-08544EDDB304}
+	EndGlobalSection
+EndGlobal
