@@ -32,4 +32,4 @@ request is critical for business in terms of successful transactions and avoidin
 Health check components can be implemented for better monitoring and alerting.
 
 This api endpoint needs to be secured with implementing SSL certificate validation and with other network related configuration like
-(firewall, VNet and Subnet).
+(firewall, VNet and Subnet) and Docker container.
